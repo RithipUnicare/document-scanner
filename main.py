@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from dotenv import load_dotenv
 from contextlib import asynccontextmanager
 from config.database import async_db_create, get_async_session
+from models.DatabaseRegistry import registry
 
 #Load environmental variables on root itself
 load_dotenv()

@@ -8,7 +8,8 @@ import os
 load_dotenv()
 
 class Base(DeclarativeBase):
-    pass
+    __allow_unmapped__ = True
+
 
 POSTGRES_URL = os.getenv("POSTGRES_URL", "localhost")
 POSTGRES_PORT = os.getenv("POSTGRES_PORT", "5432")
