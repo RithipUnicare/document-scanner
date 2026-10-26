@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from contextlib import asynccontextmanager
 from config.database import async_db_create, get_async_session
 
-#Load environmental variablr on root itself
+#Load environmental variables on root itself
 load_dotenv()
 
 @asynccontextmanager
