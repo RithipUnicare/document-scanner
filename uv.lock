@@ -542,6 +542,8 @@ dependencies = [
     { name = "fastapi-users" },
     { name = "fastapi-users-db-sqlalchemy" },
     { name = "psycopg2-binary" },
+    { name = "pwdlib" },
+    { name = "pyjwt" },
     { name = "python-dotenv" },
     { name = "sqlalchemy", extra = ["asyncio"] },
 ]
@@ -555,6 +557,8 @@ requires-dist = [
     { name = "fastapi-users", specifier = ">=15.0.5" },
     { name = "fastapi-users-db-sqlalchemy", specifier = ">=4.0.4" },
     { name = "psycopg2-binary", specifier = ">=2.9.13" },
+    { name = "pwdlib", specifier = ">=0.3.0" },
+    { name = "pyjwt", specifier = ">=2.15.1" },
     { name = "python-dotenv", specifier = ">=1.2.4" },
     { name = "sqlalchemy", extras = ["asyncio"], specifier = ">=2.1.6" },
 ]
